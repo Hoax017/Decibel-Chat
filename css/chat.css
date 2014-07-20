@@ -1,0 +1,323 @@
+.chatbox {
+	position: fixed;
+	position:expression("absolute");
+	width: 225px;
+	display:none;
+}
+
+.chatboxhead {
+	background-color: #2E4588;
+	padding:7px;
+	color: #ffffff;
+font-size: 12px;
+color: #FFF;
+text-shadow: 0px -1px rgba(0, 0, 0, 0.25);
+
+	border-right:1px solid #4B67A8;
+	border-left:1px solid #4B67A8;
+}
+
+
+.chatboxblink {
+	background-color: #4B67A8;
+	border-right:1px solid #2E4588;
+	border-left:1px solid #2E4588;
+}
+
+.chatboxcontent {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	height:200px;
+	width:223px;
+	overflow-y:auto;
+	overflow-x:auto;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #eeeeee;
+	background-color: #EDEFF4;
+	line-height: 1.3em;
+}
+
+.chatboxinput {
+	padding: 5px;
+	background-color: #ffffff;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.chatboxtextarea {
+	width: 206px;
+	height:20px;
+	padding:1px 0pt 1px 1px;
+	border: 0px solid #eeeeee;
+	margin: 1px;
+	overflow:hidden;
+	resize: none;
+}
+
+.chatboxtextareaselected {
+	border: 1px solid #f99d39;
+	margin:0;
+}
+
+.chatboxmessage {
+}
+
+.chatboxinfo {
+	margin-left:-1em;
+	color:#666666;
+
+}
+
+.chatboxmessagefrom {
+	margin-left:0;
+	font-weight: bold;
+}
+
+.chatboxmessagefrome {
+	float: right;
+	font-weight: bold;
+}
+
+.chatboxmessagecontent {
+}
+
+.chatboxmessagecontente {
+float: right;
+}
+
+.chatboxoptions {
+	float: right;
+}
+
+.chatboxoptions a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+.chatboxtitle {
+	float: left;
+	margin: 5px 8px 3px;
+}
+
+/*   
+
+BULLES FACEBOOK
+
+ */
+._1nc6 ._5wd9, ._1nc6 ._3ry4 {
+    float: right;
+}
+élément {
+
+}
+._5wd4 {
+
+    line-height: 1.28;
+    margin: 0px 4px;
+    overflow: hidden;
+    padding: 5px 0px;
+    text-align: left;
+
+}
+._5yt9 {
+
+    position: relative;
+
+}
+.direction_ltr {
+
+    direction: ltr;
+
+}
+
+
+td, td.label {
+
+    text-align: left;
+
+}
+
+
+
+._1nc7 ._5w1r:after {
+
+    background-image: url('vgEDZOkFYM2.png');
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: -212px -409px;
+
+}
+._5w1r:after {
+
+    background-repeat: no-repeat;
+    height: 13px;
+    top: 5px;
+
+}
+._1nc7 ._5w1r:after, ._1nc7 ._5w1r:before {
+
+    right: 100%;
+
+}
+._5w1r:before {
+
+    bottom: 0px;
+    clip: rect(5px, 13px, 18px, 0px);
+    top: 0px;
+
+}
+._5w1r:after, ._5w1r:before {
+
+    content: "";
+    position: absolute;
+    width: 8px;
+
+}
+élément {
+
+    max-width: 171px;
+
+}
+._1nc7._2cnu ._5wdf {
+
+    margin-bottom: 4px;
+    margin-top: 4px;
+
+}
+._1nc7 ._5w1r, ._1nc7 ._5w1r:before {
+
+    background-color: #F7F7F7;
+    background-image: -moz-linear-gradient(center bottom , #F2F2F2, #FFF);
+
+}
+._1nc6 ._5w1r, ._1nc6 ._5w1r:before {
+    background-color: #DBEDFE;
+    background-image: -moz-linear-gradient(center bottom , #C7DEFE, #E7F1FE);
+}
+._1nc6 ._5w1r:after {
+    background-image: url('vgEDZOkFYM2.png');
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: -211px -351px;
+}
+._5w1r:after {
+    background-repeat: no-repeat;
+    height: 13px;
+    top: 5px;
+}
+
+._1nc6 ._5w1r:after, ._1nc6 ._5w1r:before {
+    left: 100%;
+}
+._1nc6 ._5w1r {
+    margin-right: 6px;
+    padding-left: 6px;
+    padding-right: 5px;
+}
+._1nc7 ._5w1r {
+
+    float: left;
+    margin-left: 6px;
+    padding-left: 5px;
+    padding-right: 6px;
+
+}
+._5wdf {
+
+    opacity: 1;
+    transition: opacity 0.1s ease-in 0s;
+
+}
+._5w1r {
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.18) rgba(0, 0, 0, 0.18) rgba(0, 0, 0, 0.29);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px #DCE0E6;
+    color: #3E454C;
+    min-height: 14px;
+    padding-bottom: 3px;
+    padding-top: 4px;
+    position: relative;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+
+}
+._5wd4 {
+
+    line-height: 1.28;
+    text-align: left;
+
+}
+.direction_ltr {
+
+    direction: ltr;
+
+}
+._5p3y[dir="ltr"], ._5p3y[dir="ltr"] button, ._5p3y[dir="ltr"] input, ._5p3y[dir="ltr"] label, ._5p3y[dir="ltr"] select, ._5p3y[dir="ltr"] td, ._5p3y[dir="ltr"] textarea, ._5p3y[dir="ltr"] .uiMentionsInput .highlighter, ._5p3y[dir="ltr"] .uiButtonText, ._5p3y[dir="ltr"] .uiButton input, ._5p3y[dir="ltr"] .uiLinkButton input, ._5p3y[dir="ltr"] button.as_link, ._5p3y[dir="ltr"] .fbChatSidebar, ._5p3y[dir="ltr"] .fbDock, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5, ._5p3y[dir="ltr"] .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .uiStreamMessage, ._5p3y[dir="ltr"] .tickerDialogContent .uiStream .text_exposed_link, ._5p3y[dir="ltr"] .uiTooltipX .tooltipContent, ._5p3y[dir="ltr"] a[role="button"], ._5p3y[dir="rtl"] [dir="ltr"] {
+
+    font-family: Helvetica,Arial,"lucida grande",tahoma,verdana,arial,sans-serif;
+
+}
+._5p3y, ._5p3y button, ._5p3y input, ._5p3y label, ._5p3y select, ._5p3y td, ._5p3y textarea, ._5p3y .uiMentionsInput .highlighter, ._5p3y .uiButtonText, ._5p3y .uiButton input, ._5p3y .uiLinkButton input, ._5p3y button.as_link {
+
+    font-size: 12px;
+
+}
+td, td.label {
+
+    text-align: left;
+
+}
+body, button, input, label, select, td, textarea {
+
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 11px;
+
+}
+._51mz {
+
+    border-collapse: collapse;
+    border-spacing: 0px;
+
+}
+._5p3y .fbChatSidebar, ._5p3y .fbDock, ._5p3y .fbFeedTicker .fbFeedTickerStory .tickerFeedMessage, ._5p3y .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h5, ._5p3y .fbFeedTicker .fbFeedTickerStory div.tickerFeedMessage h6, ._5p3y .tickerDialogContent .uiStream .uiStreamMessage, ._5p3y .tickerDialogContent .uiStream .text_exposed_link, ._5p3y .uiTooltipX .tooltipContent {
+
+    font-size: 12px;
+    line-height: 16px;
+
+}
+._50-- {
+
+    direction: ltr;
+
+}
+._5vb_, ._5vb_ #contentCol {
+
+    color: #141823;
+
+}
+
+
+
+
+body {
+
+    color: #333;
+    line-height: 1.28;
+    text-align: left;
+    direction: ltr;
+
+}
